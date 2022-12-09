@@ -1,0 +1,139 @@
+/* Importar fontes */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); /* Lato */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /* Roboto */
+
+/* Configurações do 'body' no modo claro */
+body{
+    /* Define o fundo */
+    background-image: linear-gradient(to right, #D0DAE0, #CACED0);
+    /* Configura as fontes do site */
+    font-family: Lato, Roboto, Arial, Helvetica, sans-serif;
+}
+
+/* Configurações específicas para dispositivos pequenos */
+@media only screen and (max-width: 768px){
+    body{
+        /* Tamanho das fontes */
+        font-size: 16px;
+    }
+}
+
+/* Configurações específicas para dispositivos médios */
+@media only screen and (min-width: 769px) and (max-width: 1239px){
+    body{
+        /* Tamanho das fontes */
+        font-size: 18px;
+    }
+
+    .navbar-brand > p{
+        /* Tamanho do nome 'Finanças' */
+        font-size: 20px;
+    }
+}
+
+/* Configurações específicas para dispositivos grandes */
+@media only screen and (min-width: 1240px) and (max-width: 1400px){
+    body{
+        /* Tamanho das fontes */
+        font-size: 20px;
+    }
+    
+    .navbar-brand > p{
+        /* Tamanho do nome 'Finanças' */
+        font-size: 22px;
+    }
+}
+
+
+/* Botão de alterar entre modo escuro e claro */
+#botaoAlterarModo{
+    /* Retira o fundo */
+    background: none;
+    /* Retira a borda */
+    border: none;
+}
+
+/* Botão 'Entrar' */
+#botaoEntrar{
+    /* Define o fundo */
+    background-color: #308FF5;
+    /* Muda a cor da fonte */
+    color: white;
+}
+
+/* Hover no botão 'Entrar' */
+#botaoEntrar:hover{
+    /* Define o fundo */
+    background-color: #1977DC;
+}
+
+/* Botão 'Cadastrar' */
+#botaoCadastrar{
+    /* Define o fundo */
+    background-color: #25298C;
+    /* Muda a cor da fonte */
+    color: white;
+}
+
+/* Hover no botão 'Cadastrar' */
+#botaoCadastrar:hover{
+    /* Define o fundo */
+    background-color: #181c75;
+}
+
+/* Altera o nome 'Finanças' ao lado da logo */
+.navbar-brand > p{
+    /* Muda a cor */
+    color: black;
+}
+
+/* Hover no nome 'Finanças' */
+.navbar-brand > p:hover{
+    /* Muda a cor */
+    color: #308FF5;
+}
+
+/* Altera os links da navbar */
+#linksNavbar > ul > li > a{
+    /* Muda a cor */
+    color: black;
+}
+
+/* Hover nos links da navbar */
+#linksNavbar > ul > li > a:hover{
+    /* Muda a cor */
+    color: #308FF5;
+}
+
+
+
+
+/* Configurações do 'body' no modo escuro */
+.modo-escuro{
+    /* Define o fundo */
+    background-image: linear-gradient(to right, #25298C, #373BA3);
+}
+
+/* Altera o nome 'Finanças' ao lado da logo */
+.modo-escuro > nav > .navbar-brand > p{
+    /* Muda a cor */
+    color: white
+}
+
+/* Hover no nome 'Finanças' */
+.modo-escuro > nav > .navbar-brand > p:hover{
+    /* Muda a cor */
+    color: #308FF5;
+}
+
+/* Altera os links da navbar */
+.modo-escuro > nav > #linksNavbar > ul > li > a{
+    /* Muda a cor */
+    color: white;
+}
+
+/* Hover nos links da navbar */
+.modo-escuro > nav > #linksNavbar > ul > li > a:hover{
+    /* Muda a cor */
+    color: #308FF5;
+}
