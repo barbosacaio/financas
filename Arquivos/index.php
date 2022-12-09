@@ -33,7 +33,7 @@
         <a class='navbar-brand' href='index.php'><img src='Imagens/Logos/financas_darkmode_64px.png' id='logoFinancas' height='30' alt='Ícone do Finanças'><p class='d-none d-lg-inline ml-3 mr-5'>Finanças</p></a>
         <!-- Botão de dropdown para dispositivos pequenos -->
         <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#linksNavbar' aria-controls='linksNavbar' aria-expanded='false' aria-label='Alterar Navbar'>
-            <i class="fa-solid fa-bars"></i>
+            <img src='Imagens/Utilitários/hamburguer_escuro_64px.png' alt='Menu Hambúrguer' height='25' id='hamburguer'>
         </button>
         <!-- //Botão de dropdown para dispositivos pequenos -->
         <!-- Links da navbar -->
