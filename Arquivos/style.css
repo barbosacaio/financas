@@ -44,6 +44,21 @@ body{
     }
 }
 
+/* Botão de notificações */
+#botaoNotificacoes{
+    /* Retira o fundo */
+    background: none;
+    /* Retira a borda */
+    border: none;
+}
+
+/* Focus do botão de notificações */
+#botaoNotificacoes:focus{
+    /* Remove o estilo */
+    outline-style: none;
+    /* Remove a sombra */
+    box-shadow: none;
+}
 
 /* Botão de alterar entre modo escuro e claro */
 #botaoAlterarModo{
@@ -51,6 +66,14 @@ body{
     background: none;
     /* Retira a borda */
     border: none;
+}
+
+/* Focus do botão de alterar modo */
+#botaoAlterarModo:focus{
+    /* Remove o estilo */
+    outline-style: none;
+    /* Remove a sombra */
+    box-shadow: none;
 }
 
 /* Botão 'Entrar' */
@@ -81,6 +104,42 @@ body{
     background-color: #181c75;
 }
 
+/* Botão 'Saber mais' */
+#botaoSaberMais{
+    /* Define o fundo */
+    background-color: #308FF5;
+    /* Muda a cor da fonte */
+    color: white;
+}
+
+/* Hover no botão 'Saber mais' */
+#botaoSaberMais:hover{
+    /* Define o fundo */
+    background-color: #1977DC;
+}
+
+/* Botão 'História' */
+#botaoHistoria{
+    /* Define o fundo */
+    background: none;
+    /* Muda a cor da fonte */
+    color: black;
+}
+
+/* Hover no botão 'História' */
+#botaoHistoria:hover{
+    /* Muda a cor da fonte */
+    color: #1977DC;
+}
+
+/* Focus do hamburguer */
+#navbar > button:focus{
+    /* Remove o estilo */
+    outline-style: none;
+    /* Remove a sombra */
+    box-shadow: none;
+}
+
 /* Altera o nome 'Finanças' ao lado da logo */
 .navbar-brand > p{
     /* Muda a cor */
@@ -104,6 +163,84 @@ body{
     /* Muda a cor */
     color: #308FF5;
 }
+
+/* Slogan do site */
+#slogan > .row > .col-sm > h1{
+    /* Muda a cor */
+    color: black;
+}
+
+/* Palavra que vai ser digitada no slogan */
+#slogan > .row > .col-sm > h1 > span{
+    /* Muda a cor */
+    color: #25298C;
+}
+
+/* Texto explicativo abaixo do slogan */
+#sloganContainer > h5{
+    /* Muda a cor */
+    color: black;
+}
+
+/* Imagem ao lado do slogan */
+#imagemContainer > img{
+    /* Alinha ao centro */
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+/* Área de funções */
+#funcoes{
+    /* Define o fundo */
+    background-color: #D0DAE0;
+}
+
+/* Título de área */
+.tituloArea{
+    /* Define a cor */
+    color: black;
+    /* Centraliza o texto */
+    text-align: center;
+    /* Arruma a separação com os outros elementos */
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 2%;
+}
+
+/* Subtítulo de área */
+.subtituloArea{
+    /* Define a cor */
+    color: black;
+    /* Centraliza o texto */
+    text-align: center;
+    /* Limita a área que pode ser escrita */
+    padding-left: 10%;
+    padding-right: 10%;
+    /* Arruma a separação com os outros elementos */
+    margin-bottom: 5%;
+}
+
+/* Funções da área de funções */
+#funcoes > .row > .col-sm{
+    /* Alinha todos os elementos ao centro */
+    text-align: center;
+    /* Define a separação com outros elementos */
+    padding: 5%;
+    padding-top: 0;
+}
+
+/* Título e subtítulo da função */
+#funcoes > .row > .col-sm > h3, #funcoes > .row > .col-sm > p{
+    /* Define a área máxima que pode ser ocupada */
+    padding-left: 10%;
+    padding-right: 10%;
+    /* Muda a cor da fonte */
+    color: black;
+}
+
+
+
 
 
 
@@ -136,4 +273,61 @@ body{
 .modo-escuro > nav > #linksNavbar > ul > li > a:hover{
     /* Muda a cor */
     color: #308FF5;
+}
+
+/* Slogan do site */
+.modo-escuro > main > #slogan > .row > #sloganContainer > h1{
+    /* Muda a cor */
+    color: white;
+}
+
+/* Palavra que vai ser digitada no slogan */
+.modo-escuro > main > #slogan > .row > #sloganContainer > h1 > span{
+    /* Muda a cor */
+    color: #308FF5;
+}
+
+/* Texto explicativo abaixo do slogan */
+.modo-escuro > main > #slogan > .row > #sloganContainer > h5{
+    /* Muda a cor */
+    color: white;
+}
+
+/* Botão 'História' */
+.modo-escuro > main > #slogan > .row > #sloganContainer > a > #botaoHistoria{
+    /* Muda a cor da fonte */
+    color: white;
+}
+
+/* Hover no botão 'História' */
+.modo-escuro > main > #slogan > .row > #sloganContainer > a > #botaoHistoria:hover{
+    /* Muda a cor da fonte */
+    color: #1977DC;
+}
+
+/* Área de funções */
+.modo-escuro > #funcoes{
+    /* Define o fundo */
+    background-color: #25298C;
+}
+
+/* Título de área */
+.modo-escuro > #funcoes > .tituloArea{
+    /* Define a cor */
+    color: white;
+}
+
+/* Subtítulo de área */
+.modo-escuro > #funcoes > .subtituloArea{
+    /* Define a cor */
+    color: white;
+}
+
+/* Título e subtítulo da função */
+.modo-escuro > #funcoes > .row > .col-sm > h3, .modo-escuro > #funcoes > .row > .col-sm > p{
+    /* Define a área máxima que pode ser ocupada */
+    padding-left: 10%;
+    padding-right: 10%;
+    /* Muda a cor da fonte */
+    color: white;
 }
